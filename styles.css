@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&display=swap');
 
 html {
     font-size: 14px;
@@ -40,7 +41,7 @@ header {
     font-style: normal;
 }
 .title h1{
-    font-size: clamp(3rem, 8vw, 7rem);
+    font-size: clamp(4rem, 8vw, 7rem);
 }
 .navbar{
     font-family: "Cinzel", serif;
@@ -68,7 +69,82 @@ header {
     background-color: rgba(232, 133, 155, 0.8);
 }
 
-footer {
-    font-weight: 600;
+.about{
+    background-color: #FDF4F4;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.outframe{
+    padding: 0.5rem;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(232, 133, 155, 0.6)
+}
+.inframe{
+    padding: 0.5rem;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.ani{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 576px) {
+    .ani {
+        max-width: 130px;
+    }
+}
+@media (min-width: 577px) and (max-width: 991px) {
+    .ani {
+        max-width: 200px;
+    }
+}
+@media (min-width: 992px) {
+    .ani {
+        max-width: 300px;
+    }
+}
+.text-about{
+    font-family: "Chathura", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+.text-about h3{
+    color: #F475AC;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: clamp(1rem, 5vw, 3rem);
+}
+.text-about p{
+    color: #936784;
+}
+button{
+    font-size: 1.3rem;
+    background-color: #F475AC;
+    color: white;
+    border-color: #F475AC;
+    padding: 0.5rem 1rem;
+    border-radius: 15px; 
+}
+button:hover{
+    background-color: white;
+    color: #F475AC;
+    border-color: #F475AC;
 }
 
+footer {
+    height: 3rem;
+    background-color: #E25D97;
+    font-weight: 600;
+    color: white;
+    font-family: "Chathura", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+footer p{
+    margin-left: 3.5rem;
+}
