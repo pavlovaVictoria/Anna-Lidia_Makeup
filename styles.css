@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 
 html {
     font-size: 14px;
@@ -14,19 +15,60 @@ html {
   position: relative;
   min-height: 100%;
 }
-
+h2, h3, h4, h5, h6{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 body {
     margin-bottom: 60px;
-    font-family: "Bebas Neue", serif;
 }
 
 header {
     font-weight: 600;
 }
+.background-image{
+    height: auto; 
+    max-height: 575px;
+    image-rendering: auto;
+}
+.title{
+    color: white;
+    font-family: "Love Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.title h1{
+    font-size: clamp(3rem, 8vw, 7rem);
+}
+.navbar{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-link{
+    color: white;
+}
+.nav-item{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.nav-item .nav-link {
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+    transition: white 0.5s ease;
+}
+.nav-item .nav-link:hover {
+    color: white;
+    border-bottom-color: white;
+}
+.offcanvas{
+    background-color: rgba(232, 133, 155, 0.8);
+}
+
 footer {
     font-weight: 600;
 }
 
-nav{
-    align-items: center;
-}
