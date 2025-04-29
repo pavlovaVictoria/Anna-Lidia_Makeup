@@ -135,6 +135,10 @@ button:hover{
     border-color: #F475AC;
 }
 
+.gallery{
+    background-color: #F089A4;
+}
+
 footer {
     height: 3rem;
     background-color: #E25D97;
