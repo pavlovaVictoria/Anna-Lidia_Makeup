@@ -138,6 +138,17 @@ button:hover{
 .gallery{
     background-color: #F089A4;
 }
+.gallery .left button{
+    font-size: 1.3rem;
+    background-color: #FFB7D6;
+    color: white;
+    border-color: #F475AC;
+    padding: 0.5rem 1rem;
+    border-radius: 15px; 
+}
+.gallery-text{
+    color: white;
+}
 
 footer {
     height: 3rem;
