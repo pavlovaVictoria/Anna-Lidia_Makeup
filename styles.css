@@ -157,7 +157,11 @@ button:hover{
 .gallery-quote{
     color: white;
     margin-bottom: 5px;
-    padding: 10px 20px;
+    padding: 20px 20px;
+
+    border-top: 5px solid white;
+    border-left: 10px solid white;
+    border-radius: 10px;
 }
 .left{
     font-family: "Chathura", sans-serif;
@@ -212,6 +216,60 @@ button:hover{
     .ani-make {
         max-width: 300px;
     }
+}
+
+.contact{
+    background-color: #FDF4F4;
+    padding: 2rem;
+    color: #724964;
+}
+.contact .container{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(232, 133, 155, 0.6)
+}
+.logo{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: fill;
+    overflow: hidden;
+    border: 5px dotted #936784;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+@media (max-width: 576px) {
+    .logo {
+        width: 7rem;
+        height: 7rem;
+    }
+}
+@media (min-width: 577px) and (max-width: 991px) {
+    .logo {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+@media (min-width: 992px) {
+    .logo {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+.contact h4{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: clamp(1rem, 3vw, 2rem);
+    margin-top: 1rem;
+}
+.contact a{
+    margin: 0px 1rem;
+    color: #724964;
+}
+.contact i{
+    font-size: clamp(0.5rem, 3vw, 2rem);
+}
+.contact-links{
+    margin-bottom: 1rem;
 }
 
 footer {
