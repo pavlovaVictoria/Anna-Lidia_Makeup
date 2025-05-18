@@ -221,7 +221,7 @@ button:hover{
 .contact{
     background-color: #FDF4F4;
     padding: 2rem;
-    color: #724964;
+    color: #F089A4;
 }
 .contact .container{
     background-color: white;
@@ -234,9 +234,9 @@ button:hover{
     border-radius: 50%;
     object-fit: fill;
     overflow: hidden;
-    border: 5px dotted #936784;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    box-shadow: 0 0 15px rgba(232, 133, 155, 0.6);
 }
 @media (max-width: 576px) {
     .logo {
@@ -263,7 +263,7 @@ button:hover{
 }
 .contact a{
     margin: 0px 1rem;
-    color: #724964;
+    color: #F089A4;
 }
 .contact i{
     font-size: clamp(0.5rem, 3vw, 2rem);
@@ -274,7 +274,7 @@ button:hover{
 
 footer {
     height: 3rem;
-    background-color: #E25D97;
+    background-color: #F089A4;
     font-weight: 600;
     color: white;
     font-family: "Chathura", sans-serif;
